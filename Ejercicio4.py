@@ -4,3 +4,4 @@ def medida(*tupla):
         print(i)
 
 medida(2, 3, 4, 10, 20)
+
