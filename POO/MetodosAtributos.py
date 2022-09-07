@@ -5,12 +5,15 @@ class FabricaTelefonos():
     almacenamiento = 128
 
     def llamar(self, mensaje):
-        print(mensaje)
+        return mensaje
 
+    def escucharMusica(self):
+        print("Estás escuchando música")
 telefono = FabricaTelefonos()
 telefono.marca # Atributo
 telefono.color # Atributo
 telefono.memoriaRam # Atributo
 telefono.almacenamiento # Atributo
 
-telefono.llamar("Hola, ¿con quién hablo?")
+print(telefono.llamar("Hola, ¿con quién hablo?"))
+telefono.escucharMusica()
